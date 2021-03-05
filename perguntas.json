@@ -1,0 +1,130 @@
+[
+  {
+    "description": "How many bytes are in a single Kibibyte?",
+    "options": [
+      "2400",
+      "1000",
+      "1240",
+      "1024"
+    ],
+    "correct": "1024"
+  },
+  {
+    "description": "How many bits make up the significand portion of a single precision floating point number?",
+    "options": [
+      "8",
+      "53",
+      "23",
+      "58"
+    ],
+    "correct": "23"
+  },
+  {
+    "description": "On which day did the World Wide Web go online?",
+    "options": [
+      "December 17, 1996",
+      "November 12, 1990",
+      "December 20, 1990",
+      "November 24, 1995"
+    ],
+    "correct": "December 20, 1990"
+  },
+  {
+    "description": "Approximately how many Apple I personal computers were created?",
+    "options": [
+      "200",
+      "100",
+      "500",
+      "1000"
+    ],
+    "correct": "200"
+  },
+  {
+    "description": "How fast is USB 3.1 Gen 2 theoretically?",
+    "options": [
+      "10 Gb/s",
+      "5 Gb/s",
+      "8 Gb/s",
+      "1 Gb/s"
+    ],
+    "correct": "10 Gb/s"
+  },
+  {
+    "description": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+    "options": [
+      "static",
+      "absolute",
+      "relative",
+      "center"
+    ],
+    "correct": "center"
+  },
+  {
+    "description": "Whistler was the codename of this Microsoft Operating System.",
+    "options": [
+      "Windows 95",
+      "Windows 2000",
+      "Windows XP",
+      "Windows 7"
+    ],
+    "correct": "Windows XP"
+  },
+  {
+    "description": "What five letter word is the motto of the IBM Computer company?",
+    "options": [
+      "Click",
+      "Logic",
+      "Think",
+      "Pixel"
+    ],
+    "correct": "Think"
+  },
+  {
+    "description": "Generally, which component of a computer draws the most power?",
+    "options": [
+      "Hard Drive",
+      "Video Card",
+      "Processor",
+      "Power Supply"
+    ],
+    "correct": "Video Card"
+  },
+  {
+    "description": "AMD created the first consumer 64-bit processor.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True"
+  },
+  {
+    "description": "What is the name of the default theme that is installed with Windows XP?",
+    "options": [
+      "Neptune",
+      "Luna",
+      "Whistler",
+      "Bliss"
+    ],
+    "correct": "Luna"
+  },
+  {
+    "description": "Which of these programming languages is a low-level language?",
+    "options": [
+      "Python",
+      "C#",
+      "Assembly",
+      "Pascal"
+    ],
+    "correct": "Assembly"
+  },
+  {
+    "description": "In computing terms, typically what does CLI stand for?",
+    "options": [
+      "Common Language Interface",
+      "Common Language Input",
+      "Control Line Interface",
+      "Command Line Interface"
+    ],
+    "correct": "Command Line Interface"
+  }
+]

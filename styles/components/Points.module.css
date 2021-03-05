@@ -1,0 +1,65 @@
+.container {
+    background: white;
+    margin-left: 20%;
+    margin-top: 30px;
+    width: 30%;
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > img {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.username {
+    background: #0778E1;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.scoreSession {
+    display: flex;
+    flex-direction: row;
+}
+
+.scoreSession > hr {
+    border: 1px solid #cccccc;
+}
+
+.scoreSession > .correctPoint {
+    padding: 12px;
+    font-size: 30px;
+    color: green;
+    font-weight: bolder;
+}
+
+.scoreSession > .wrongPoint {
+    padding: 12px;
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+}
+
+.experienceSession {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.containerSkill {
+    width: 100%;
+    background-color: #ddd;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
