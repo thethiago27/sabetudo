@@ -30,11 +30,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-tsconfig.json
-yarn.lock
-.idea
+.tsconfig.json
+.yarn.lock
+/.idea
 
-.idea
 # vercel
 .vercel
 
