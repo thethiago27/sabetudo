@@ -1,6 +1,7 @@
 [
   {
-    "description": "How many bytes are in a single Kibibyte?",
+    "description": "Quantos bytes há em um único Kibibyte?",
+    "type": "select",
     "options": [
       "2400",
       "1000",
@@ -10,7 +11,8 @@
     "correct": "1024"
   },
   {
-    "description": "How many bits make up the significand portion of a single precision floating point number?",
+    "description": "Quantos bits constituem a parte significativa de um único número de ponto flutuante de precisão?",
+    "type": "select",
     "options": [
       "8",
       "53",
@@ -20,17 +22,19 @@
     "correct": "23"
   },
   {
-    "description": "On which day did the World Wide Web go online?",
+    "description": "Em que dia a World Wide Web entrou no ar?",
+    "type": "select",
     "options": [
-      "December 17, 1996",
-      "November 12, 1990",
-      "December 20, 1990",
-      "November 24, 1995"
+      "Dezembro 17, 1996",
+      "Novembro 12, 1990",
+      "Dezembro 20, 1990",
+      "Novembro 24, 1995"
     ],
-    "correct": "December 20, 1990"
+    "correct": "Dezembro 20, 1990"
   },
   {
-    "description": "Approximately how many Apple I personal computers were created?",
+    "description": "Aproximadamente, quantos computadores pessoais Apple I foram criados?",
+    "type": "select",
     "options": [
       "200",
       "100",
@@ -40,7 +44,8 @@
     "correct": "200"
   },
   {
-    "description": "How fast is USB 3.1 Gen 2 theoretically?",
+    "description": "Teoricamente, qual é a velocidade do USB 3.1 Gen 2?",
+    "type": "select",
     "options": [
       "10 Gb/s",
       "5 Gb/s",
@@ -50,7 +55,8 @@
     "correct": "10 Gb/s"
   },
   {
-    "description": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+    "description": "Em CSS, qual desses valores NÃO PODE ser usado com a &quot; posição &quot; propriedade?",
+    "type": "select",
     "options": [
       "static",
       "absolute",
@@ -60,7 +66,8 @@
     "correct": "center"
   },
   {
-    "description": "Whistler was the codename of this Microsoft Operating System.",
+    "description": "Whistler era o codinome desse sistema operacional da Microsoft.",
+    "type": "select",
     "options": [
       "Windows 95",
       "Windows 2000",
@@ -70,7 +77,8 @@
     "correct": "Windows XP"
   },
   {
-    "description": "What five letter word is the motto of the IBM Computer company?",
+    "description": "Qual palavra de cinco letras é o lema da empresa IBM Computer?",
+    "type": "select",
     "options": [
       "Click",
       "Logic",
@@ -80,7 +88,8 @@
     "correct": "Think"
   },
   {
-    "description": "Generally, which component of a computer draws the most power?",
+    "description": "Geralmente, qual componente de um computador consome mais energia?",
+    "type": "select",
     "options": [
       "Hard Drive",
       "Video Card",
@@ -90,15 +99,17 @@
     "correct": "Video Card"
   },
   {
-    "description": "AMD created the first consumer 64-bit processor.",
+    "description": "A AMD criou o primeiro processador de 64 bits para o consumidor.",
+    "type": "select",
     "options": [
-      "True",
+      "Verdadeiro",
       "False"
     ],
-    "correct": "True"
+    "correct": "Verdadeiro"
   },
   {
-    "description": "What is the name of the default theme that is installed with Windows XP?",
+    "description": "Qual é o nome do tema padrão instalado com o Windows XP?",
+    "type": "select",
     "options": [
       "Neptune",
       "Luna",
@@ -108,7 +119,8 @@
     "correct": "Luna"
   },
   {
-    "description": "Which of these programming languages is a low-level language?",
+    "description": "Qual dessas linguagens de programação é uma linguagem de baixo nível?",
+    "type": "select",
     "options": [
       "Python",
       "C#",
@@ -118,7 +130,8 @@
     "correct": "Assembly"
   },
   {
-    "description": "In computing terms, typically what does CLI stand for?",
+    "description": "Em termos de computação, normalmente o que CLI significa?",
+    "type": "select",
     "options": [
       "Common Language Interface",
       "Common Language Input",
@@ -126,5 +139,211 @@
       "Command Line Interface"
     ],
     "correct": "Command Line Interface"
+  },
+  {
+    "description": "Qual foi a cantora que escreveu Bad Blood?",
+    "type": "select",
+    "options": [
+      "Taylor Swift",
+      "Madonna",
+      "Anitta",
+      "Shakira"
+    ],
+    "correct": "Taylor Swift"
+  },
+  {
+    "description": "Em qual empresa Gabe Newell trabalhou antes de fundar a Valve Corporation?",
+    "type": "select",
+    "options": [
+      "Microsoft",
+      "Google",
+      "Apple",
+      "Yahoo"
+    ],
+    "correct": "Microsoft"
+  },
+  {
+    "description": "Quantas espécies vivas conhecidas de hienas existem?",
+    "type": "select",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "2"
+    ],
+    "correct": "4"
+  },
+  {
+    "description": "Qual dos seguintes sistemas anticolisão ajuda os aviões a evitar colisões entre si?",
+    "type": "select",
+    "options": [
+      "TAWS",
+      "GPWS",
+      "TCAS",
+      "OCAS"
+    ],
+    "correct": "TCAS"
+  },
+  {
+    "description": "Qual destes NÃO é uma franquia de jogos da Humongous Entertainment?",
+    "type": "select",
+    "options": [
+      "Pajama Sam",
+      "Putt-Putt",
+      "Freddi Fish",
+      "Commander Keen"
+    ],
+    "correct": "Commander Keen"
+  },
+  {
+    "description": "A Antártica é o maior deserto do mundo?",
+    "type": "select",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": "Verdadeiro"
+  },
+  {
+    "description": "Qual sistema operacional foi lançado primeiro?",
+    "type": "select",
+    "options": [
+      "Mac OS",
+      "Linux",
+      "OS/2",
+      "Windows"
+    ],
+    "correct": "Mac OS"
+  },
+  {
+    "description": "Qual é a cantora da Musica Blow That Smoke?",
+    "type": "select",
+    "options": [
+      "ToveLo",
+      "Blaiir",
+      "Kendra Justis",
+      "Beyoncé"
+    ],
+    "correct": "ToveLo"
+  },
+  {
+    "description": "Qual a maior cidade do mundo?",
+    "type": "select",
+    "options": [
+      "São Paulo",
+      "Xangai",
+      "Mumbai",
+      "Tóquio"
+    ],
+    "correct": "Tóquio"
+  },
+  {
+    "description": "Qual a maior praia do mundo?",
+    "type": "select",
+    "options": [
+      "Ninety Mile Beach",
+      "Praia do Cassino",
+      "Cox´s Bazar",
+      "Bangladesh "
+    ],
+    "correct": "Praia do Cassino"
+  },
+  {
+    "description": "Qual é nome cientifico da soja?",
+    "type": "select",
+    "options": [
+      "Arietinum",
+      "Glycine max",
+      "Copyzar",
+      "Fabales"
+    ],
+    "correct": "Glycine max"
+  },
+  {
+    "description": "Qual é nome cientifico do tomate?",
+    "type": "select",
+    "options": [
+      "Magnoliophyta",
+      "Solanaceae Solanales",
+      "Solanum lycopersicum",
+      "Magnoliopsida"
+    ],
+    "correct": "Solanum lycopersicum"
+  },
+  {
+    "description": "Qual é o total de agrotóxicos liberados no Brasil?",
+    "type": "select",
+    "options": [
+      "493",
+      "495",
+      "490",
+      "491"
+    ],
+    "correct": "493"
+  },
+  {
+    "description": "Qual é o maior produtor de acerola do Mundo?",
+    "type": "input",
+    "correct": "Brasil"
+  },
+  {
+    "description": "Qual é o menor país do mundo?",
+    "type": "input",
+    "correct": "Mônaco"
+  },
+  {
+    "description": "Qual é o menor país do mundo?",
+    "type": "input",
+    "correct": "Mônaco"
+  },
+  {
+    "description": "Qual é a extenção da maior praia do mundo?",
+    "type": "input",
+    "correct": "220"
+  },
+  {
+    "description": "Qual é o segundo maior estado do Brasil?",
+    "type": "input",
+    "correct": "Pará"
+  },
+  {
+    "description": "Qual é o Maior Estado do centro oeste?",
+    "type": "input",
+    "correct": "Mato grosso"
+  },
+  {
+    "description": "Qual é o resultado da soma 8 + 6 x 2?",
+    "type": "input",
+    "correct": "26"
+  },
+  {
+    "description": "Qual é o maior rio do Brasil?",
+    "type": "input",
+    "correct": "Rio Amazonas"
+  },
+  {
+    "description": "Qual é o quinto planeta do sistema solar?",
+    "type": "input",
+    "correct": "Júpiter"
+  },
+  {
+    "description": "Qual é a Galaxia mais próxima da Via Láctea?",
+    "type": "input",
+    "correct": "Andrômeda"
+  },
+  {
+    "description": "Qual é a Galaxia mais próxima da Via Láctea?",
+    "type": "input",
+    "correct": "Andrômeda"
+  },
+  {
+    "description": "Qual é a capital do Mato Grosso?",
+    "type": "input",
+    "correct": "Cuiabá"
+  },
+  {
+    "description": "Qual é a terceira maior cidade do Brasil?",
+    "type": "input",
+    "correct": "Belo Horizonte"
   }
 ]

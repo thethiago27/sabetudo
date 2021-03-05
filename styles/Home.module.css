@@ -17,13 +17,22 @@
 
 }
 
-
-form > .button {
+.button {
   background: #0778E1;
   padding: 15px 15px;
   color: white;
   border: 0;
   width: 100%;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.resetBtn {
+  background: #0778E1;
+  padding: 15px 15px;
+  color: white;
+  border: 0;
+  width: 40%;
   border-radius: 5px;
   font-size: 20px;
   margin-top: 20px;

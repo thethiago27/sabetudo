@@ -26,3 +26,13 @@
     font-size: 23px;
     font-weight: bolder;
 }
+
+.input {
+    padding: 15px 15px;
+    background: #cccccc;
+    font-size: 17px;
+    width: 94%;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+}

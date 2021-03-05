@@ -11,10 +11,13 @@ interface TriviaInterface {
     avatar: string;
     titleQuestion: string;
     isInGame: boolean;
+    isEndGame: boolean;
+    isTypeable: boolean;
     correctAnswer: string;
     setUsName: (e) => void;
     gameConfigure: (e) => void;
     setAnswer: (e) => void;
+    restartGame: () => void;
 }
 
 interface TriviaProviderProps {
@@ -37,6 +40,9 @@ export function TriviaProvider({children}: TriviaProviderProps) {
     const [titleQuestion, setTitleQuestion] = useState(null)
 
     const [isInGame, setInGame] = useState(false)
+    const [isEndGame, setEndGame] = useState(false)
+
+    const [isTypeable, setTypeable] = useState(false)
 
     const [error, setError] = useState(null)
 
@@ -57,14 +63,43 @@ export function TriviaProvider({children}: TriviaProviderProps) {
         setCorrectPoint(correctPoint + 1)
     }
 
+    function resetGame() {
+        setExperience(0)
+        setWrongPoint(0)
+        setCorrectPoint(0)
+        setTitleQuestion('')
+        setQuestions([])
+        setCorrectAnswer('')
+    }
+
     function getAnswer() {
-        const randomQuestion = Math.floor(Math.random() * perguntas.length)
+        setCorrectAnswer(null)
+
+        if(wrongPoint >= 3) {
+            setEndGame(true)
+            resetGame()
+            return;
+        }
+
+        const randomQuestion = Math.floor(Math.random() * perguntas.length + 1)
         const question = perguntas[randomQuestion]
 
         setInGame(true)
-        setTitleQuestion(question.description)
-        setQuestions(Array.from(question.options))
         setCorrectAnswer(question.correct)
+        setTitleQuestion(question.description)
+
+        if(question.type === "input") {
+            setTypeable(true)
+            return;
+        }
+
+        setTypeable(false)
+        setQuestions(Array.from(question.options))
+    }
+
+    function restartGame() {
+        setEndGame(false)
+        getAnswer()
     }
 
     async function gameConfigure(e) {
@@ -84,7 +119,6 @@ export function TriviaProvider({children}: TriviaProviderProps) {
     function setAnswer(e) {
         if (e === correctAnswer) {
             console.log(`Pergunta correta!`)
-            setCorrectPoint(correctPoint + 1)
 
             addCorrectPoint()
             addExperience()
@@ -113,11 +147,14 @@ export function TriviaProvider({children}: TriviaProviderProps) {
             username,
             avatar,
             error,
+            isEndGame,
             titleQuestion,
             correctAnswer,
+            isTypeable,
             setUsName,
             gameConfigure,
             setAnswer,
+            restartGame
         }}>
             {children}
         </TriviaContext.Provider>
