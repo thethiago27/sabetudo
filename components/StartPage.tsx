@@ -17,6 +17,7 @@ export default function StartPage() {
                 />
                 <button className={style.button}>Vamos Jogar?</button>
             </form>
+            <hr/>
         </div>
     )
 }

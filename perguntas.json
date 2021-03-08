@@ -287,12 +287,7 @@
     "correct": "Brasil"
   },
   {
-    "description": "Qual é o menor país do mundo?",
-    "type": "input",
-    "correct": "Mônaco"
-  },
-  {
-    "description": "Qual é o menor país do mundo?",
+    "description": "Qual é  segundo menor país do mundo?",
     "type": "input",
     "correct": "Mônaco"
   },
@@ -345,5 +340,38 @@
     "description": "Qual é a terceira maior cidade do Brasil?",
     "type": "input",
     "correct": "Belo Horizonte"
+  },
+  {
+    "description": "Qual cor abaixo é a Fucsia?",
+    "type": "img",
+    "img_src": [
+      "question_img/what_is_fucsia/random_hdjs.jpg",
+      "question_img/what_is_fucsia/random_kdjde.jpg",
+      "question_img/what_is_fucsia/random_ydjs.jpg",
+      "question_img/what_is_fucsia/random_ydus.jpg"
+    ],
+    "correct": "question_img/what_is_fucsia/random_kdjde.jpg"
+  },
+  {
+    "description": "Qual planta abaixo é a Citrus X sinensis?",
+    "type": "img",
+    "img_src": [
+      "question_img/citrusxsinensis/random_6372.jpg",
+      "question_img/citrusxsinensis/random_6731.jpg",
+      "question_img/citrusxsinensis/random_6787.jpg",
+      "question_img/citrusxsinensis/random_7623.jpg"
+    ],
+    "correct": "question_img/citrusxsinensis/random_6787.jpg"
+  },
+  {
+    "description": "Qual animal abaixo é o Tapirus Terrestris?",
+    "type": "img",
+    "img_src": [
+      "question_img/tapirus_terrestris/random_6372.jpg",
+      "question_img/tapirus_terrestris/random_6421.jpg",
+      "question_img/tapirus_terrestris/random_6432.jpg",
+      "question_img/tapirus_terrestris/random_6563.jpg"
+    ],
+    "correct": "question_img/tapirus_terrestris/random_6372.jpg"
   }
 ]
