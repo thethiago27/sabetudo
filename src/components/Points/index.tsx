@@ -1,23 +1,25 @@
-import style from '../styles/components/Points.module.css'
+import style from '../../../styles/components/Points.module.css'
 import {useContext} from "react";
-import {TriviaContext} from "../context/TriviaContext";
+import {useTriviaContext} from "../../hooks";
 
 export default function PointsModule() {
 
-    const {correctPoint, avatar, wrongPoint, experience, username} = useContext(TriviaContext)
+    const { userSettings, points } = useTriviaContext()
+    const { username, avatarUrl } = userSettings
+    const { correct, wrong } = points
 
     return (
         <div className={style.container}>
-            <img src={avatar} alt={username}/>
+            <img src={avatarUrl} alt={username}/>
             <span className={style.username}>{username}</span>
             <p>SCORE</p>
             <div className={style.scoreSession}>
                 <div className={style.correctPoint}>
-                    <span>{correctPoint}</span>
+                    <span>{correct}</span>
                 </div>
                 <hr/>
                 <div className={style.wrongPoint}>
-                    <span>{wrongPoint}</span>
+                    <span>{wrong}</span>
                 </div>
             </div>
         </div>
